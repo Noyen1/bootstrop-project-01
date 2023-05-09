@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300;1,500&display=swap');
+
+*{
+      padding: 0;
+      margin:0;
+      font-family: monospace;
+      box-sizing:border-box;
+}
+  body{
+      font-family: 'Montserrat', sans-serif;
+ }
+ nav{
+      display: flex;
+      justify-content: space-between;
+      background-color:#1C2833;
+      height: 80px;
+      width: 100%;
+      padding: 0 50px 0 80px;
+      align-items: center;
+      position: fixed;
+ }
+  .Logo{
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+
+  }
+
+  nav ul{
+      display: flex;
+
+  }
+  nav ul li{
+      list-style-type: none;
+      margin: 0 8px;
+
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:700px;
+    color: white;
+    padding:7px 13px;
+    border-radius: 3px;
+    transition: 0.5s;
+    text-transform:uppercase;
+
+  }
+  nav ul li a:hover,ul li a.active{
+      background-color:#566573 ;
+  }
+  #click{
+    display: none;
+     
+  }
+  .menu-btn{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+  }
+   /* header section code strat */
+   header{
+    background-image: url("image/photo.jpeg");
+    height:90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+   /* header section code end */
+
+  /* Frist section code strat */
+   #first-section{
+    background-color:#16213E ;
+    padding-bottom:100px;
+  
+   }
+   .service-title{
+    text-align: center;
+    padding: 50px 0;
+    color:white;
+    letter-spacing: 0.2em;
+    font-size:28px;
+   }
+   #sarvice-parent{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    width:1100px;
+    margin: 0 auto;
+  
+   }
+
+   .single-sarvice{
+    background-color:white;
+    text-align: center;
+    color:black;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 3px solid green;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.single-sarvice i{
+    font-size: 40px;
+}
+
+.single-sarvice h2{
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+  /* Frist section code end */
+
+/* Second section code start */
+  #Second-section{
+    background-color:#154360 ;
+    padding: 50px 0 100px 0;
+
+  }
+   .smart-title{
+    text-align: center;
+    color: yellow;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    margin-bottom:30px;
+
+   }
+  #Smart-parent{
+    margin-left:200px;
+    margin-right:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .smart-text{
+    color:white;
+    text-align:justify;
+    padding-top: 20px;
+  }
+  .smart-text h2{
+    margin: 20px 0;
+    font-size:30px;
+    text-align: center;
+
+  }
+  .smart-text a{
+    text-decoration: none;
+    font-size: 22px;
+    background-color:#566573 ;
+    padding: 10px 20px;
+    margin-top:30px;
+    display: inline-block;
+    color: white;
+  }
+
+  /* Second section code end */
+
+  /* therd section code stat */
+  #thrid-section{
+    background-image: url(image/about-section-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+
+  }
+   #About-parent{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 200px;
+    gap:30px;
+    color: white;
+
+   }
+    .More-About-Vanela h4{
+      font-size: 20px;
+      margin-bottom: 20px;
+
+    }
+    .More-About-Vanela ul{
+      margin: 20px 0;
+
+
+    }
+    .More-About-Vanela a{
+      text-decoration: none;
+      font-size: 18px;
+      background-color: #ffff00;
+      padding: 10px 30px;
+      margin-top: 20px;
+      display: inline-block;
+      color: black;
+      border-radius: 5px;
+
+    }
+    .More-About-Vanela ul li{
+      list-style-position: inside;
+
+    }
+
+     #about-single-items-Parent{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap:25px;
+      margin-left:200px;
+     }
+
+     .about-single-item{
+      background-color: #EAECEE;
+      color: black;
+      padding: 40px 20px;
+      border-radius: 5px;
+      text-align:center;
+      border: 2px solid limegreen;
+      
+     }
+     .about-single-item h4{
+      font-size: 20px;
+      padding: 10px 0 20px 0;
+
+     }
+
+
+  /* thart section code end */
+
+  /* five section code strat  */
+
+     #fourth-section{
+      background:#154360;
+      padding:100px;
+      color: white;
+  }
+  .advice-img-box{
+    width: 100%;
+
+  }
+  .advice-parent{
+    display: flex;
+    margin: 150px;
+    gap: 50px;
+
+  }
+  .advice-parent p{
+    margin: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+
+
+  }
+  .advice-parent h3{
+    font-size: 25px;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+
+
+  }
+  .advice-parent h4{
+    font-size: 25px;
+    margin-top: 10px;
+
+  }
+  .single-advice a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.5s;
+
+
+  }
+   .advice-icon{
+    text-align: center;
+
+   }
+   .advice-icon a{
+    margin:0 5px ;
+    border: 1px solid black;
+   }
+   .single-advice a:hover{
+    background-color: wheat;
+   }
+
+
+  /* fourth section code strat  */
+
+  /* Contact section code strat */
+  #Contacr-section{
+    background-image: linear-gradient(#3958a25e,#4089c7),url("image/image2.jpg");
+    padding: 100px 0;
+    background-repeat:no-repeat ;
+    background-position: center; 
+    background-size: cover;
+
+  }
+  form{
+    background-color: #2e357a;
+    max-width: 50%;
+    margin:0 auto;
+    padding: 50px 60px;
+    border-radius:10px ;
+    border: 5px solid ;
+
+  }
+  form h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing:0.1em;
+
+
+  }
+  form p{
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+    letter-spacing: 0.1rem;
+
+
+  }
+  form .form-input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin:50px 0;
+    border: none;
+    padding-left:10px ;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 3px solid #4497D3;
+    font-size: 18px;
+
+  }
+  form .form-input::placeholder{
+    color: #4497D3;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  form .submit-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 40px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    outline-style:ridge ;
+    cursor: pointer;
+    transition: 0.5s;
+
+  }
+  form .submit-btn:hover{
+    background-color: #16213E;
+  }
+
+/* media qury code strat */
+@media only screen and (max-width:688px){
+  #sarvice-parent{
+      display: grid;
+      grid-template-columns:repeat(1,1fr);
+      grid-gap:10px;
+      width: 100%;
+  }
+  #Smart-parent{
+    margin-left:30px;
+    margin-right:30px;
+    display:block;
+  }
+  #smart-image img{
+    width: 100%;
+    margin-bottom:30px ;
+  }
+  /* start about section code */
+  .advice-parent{
+    display:block;
+    margin: 0 30px;
+ }   
+ .advice-icon a{
+  margin:10 5px ;
+ 
+}
+.advice-icon h3{
+  margin-top:50px ;
+
+}
+ /* fourth section code strat  */
+ form{
+  background-color: #2e357a;
+  max-width:90%;
+  padding: 20px 30px;
+ }
+
+}
+   @media only screen and (max-width:940px) {
+    .menu-btn{
+        display: block;
+    }
+   
+    nav ul{
+        position: fixed;
+        top:80px;
+        left:-100%;
+        height: 100vh;
+        width: 100%;
+        background-color:#17202A;
+        flex-direction: column;
+        text-align: center;
+        padding-top:20px ;
+        transition:all 0.5s ease;
+
+    }
+    #click:checked ~ .menu-btn i::before{
+        content:" \f00d";
+      
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    nav ul li{
+        margin:50px 0;
+    }
+    nav ul li a{
+      font-size: 22px;
+    }
+    nav ul li a:hover, nav ul li a.active{
+        background: none;
+        color:red;
+    }
+   
+    /* about section code strat */
+    #About-parent{
+      display:block;
+      align-items:center;
+      margin-left:30px;
+      margin-top:30px;
+      color: white;
+    }
+    /* about section code end */
+
+    /* fourth section code strat  */
+ form{
+  background-color: #2e357a;
+  max-width:90%;
+  padding: 40px 50px;
+ }
+
+
+   }
+   
+
+   @media only screen and (min-width:689px) and (max-width:1099px){
+    #sarvice-parent{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap:20px;
+        width: 100%;
+    }
+    #Smart-parent{
+      margin-left:70px;
+      margin-right:70px;
+      display:block;
+    }
+    #smart-image img{
+      width: 100%;
+      margin-bottom:70px ;
+    }
+   /* media quary end */
+   #About-parent{
+    display:block;
+    align-items:center;
+    margin-left:30px;
+    margin-top:30px;
+    color: white;
+  }
+  #about-single-items-Parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:15px;
+    margin-top: 50px;
+
+   }
+     /* start about section code */
+  .advice-parent{
+    display:flex;
+    margin: 0 70px;
+  }
+  }
+  /* about section code end */
+   
